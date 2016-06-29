@@ -138,6 +138,9 @@ alias npmw="npm run-script watch"
 alias npmba='fswatch app/assets/:app/util/shared/:app/util/schemas/ "npm run-script browserifyAssets; echo 'browserified'"'
 alias npmb='fswatch app/assets/:app/util/shared/:app/util/schemas/:public/css/adcolony.css "npm run-script build; echo 'built.'"'
 alias npmm="npm run-script make"
+alias npms="npm run-script supervise"
 alias staging="export NODE_ENV=staging"
+alias ops="export portal_behavior=ops;echo 'Portal Behavior = OPS';"
+alias ace="export portal_behavior=ace;echo 'Portal Behavior = ACE';"
 
 alias awssh="ssh -i $HOME/.ssh/adc2_east.pem"
